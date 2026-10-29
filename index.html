@@ -3,21 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Helados Artesanales - Gelato & Sabor</title>
+    <title>Pastelería Jorley - Personalizando tus ideas desde 2020</title>
 
     <!-- CSS de Bootstrap 5.3.3 e Iconos de Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    
-    <!-- Estilos personalizados opcionales -->
-    <style>
-        .hero-section {
-            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('imagenes/imagen1.jpg') center/cover no-repeat;
-        }
-        .bg-cream {
-            background-color: #fff9f2;
-        }
-    </style>
 </head>
 <body class="bg-light pt-5">
 
@@ -25,113 +15,124 @@
     <nav class="navbar navbar-expand-lg bg-white fixed-top shadow-sm py-2">
         <div class="container d-flex align-items-center justify-content-between">
             <a href="#inicio" class="d-flex align-items-center text-decoration-none">
-                <img src="imagenes/imagen2.jpg" alt="Logo Heladería" width="55" height="55" class="rounded-circle object-fit-cover border border-2 border-danger me-2">
+                <img src="imagenes/jorleylogo.png" alt="Logo Pastelería Jorley" height="55" class="me-2">
                 <div>
-                    <span class="fw-bold fs-3 text-danger lh-1 d-block">GELATO & SABOR</span>
-                    <small class="text-muted" style="font-size: 0.75rem;">Heladería Artesanal</small>
+                    <span class="fw-bold fs-3 text-danger lh-1 d-block">JORLEY</span>
+                    <small class="text-muted" style="font-size: 0.75rem;">Personalizando tus ideas</small>
                 </div>
             </a>
             <div class="d-none d-md-flex gap-3">
                 <a href="#inicio" class="btn btn-link text-dark text-decoration-none fw-semibold">Inicio</a>
-                <a href="#sabores" class="btn btn-link text-dark text-decoration-none fw-semibold">Sabores</a>
-                <a href="#precios" class="btn btn-link text-dark text-decoration-none fw-semibold">Precios</a>
-                <a href="#multimedia" class="btn btn-link text-dark text-decoration-none fw-semibold">Nosotros</a>
-                <a href="#pedidos" class="btn btn-danger btn-sm px-3 my-auto rounded-pill fw-semibold">Hacer Pedido</a>
+                <a href="#pasteles" class="btn btn-link text-dark text-decoration-none fw-semibold">Catálogo</a>
+                <a href="#precios" class="btn btn-link text-dark text-decoration-none fw-semibold">Precios y Porciones</a>
+                <a href="#nosotros" class="btn btn-link text-dark text-decoration-none fw-semibold">Ubicación</a>
+                <a href="#pedidos" class="btn btn-danger btn-sm px-4 my-auto fw-semibold rounded-pill">Hacer Pedido</a>
             </div>
         </div>
     </nav>
 
-    <!-- 2. BANNER PRINCIPAL (HERO) -->
-    <header id="inicio" class="container py-4 mt-4">
-        <div class="card border-0 shadow-lg rounded-4 overflow-hidden text-white hero-section p-4 p-md-5 my-md-2">
-            <div class="card-body text-center p-2 p-md-4 col-lg-10 mx-auto">
+    <!-- 2. BANNER PRINCIPAL (HERO) - Centrado perfecto en celular y PC -->
+    <header id="inicio" class="container py-4 mt-5">
+        <div class="card border-0 shadow-lg rounded-4 overflow-hidden text-white bg-dark p-4 p-md-5 my-md-2 position-relative">
+            <img src="imagenes/imagenBanner.png" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover opacity-50" alt="Banner Pastelería Jorley">
+            <div class="card-body position-relative text-center p-3 p-md-5 col-11 col-md-10 mx-auto d-flex flex-column align-items-center justify-content-center">
                 <span class="badge bg-danger bg-opacity-75 mb-3 px-3 py-2 rounded-pill fw-normal fs-6">
-                    <i class="bi bi-snow2 me-1"></i> 100% Natural & Artesanal
+                    <i class="bi bi-heart-fill me-1"></i> Personalizando tus ideas desde 2020
                 </span>
                 <!-- Encabezado Principal H1 -->
-                <h1 class="display-5 fw-bold mb-3">
-                    El sabor real de la fruta natural hecho helado
+                <h1 class="display-5 fw-bold mb-3 text-center w-100">
+                    El detalle perfecto y comestible para cada ocasión especial
                 </h1>
-                <p class="lead mb-4 opacity-90 col-lg-9 mx-auto">
-                    Disfruta de nuestros irresistibles helados artesanales elaborados diariamente con ingredientes frescos, cremosos y libres de preservantes. ¡Un toque de dulzura para tu día!
+                <p class="lead mb-4 opacity-90 col-12 col-lg-9 mx-auto text-center">
+                    Elaboramos pasteles artesanales, temáticos, postres y detalles con ingredientes de primera calidad. Todos nuestros acabados y detalles son completamente comestibles.
                 </p>
-                <div class="d-flex gap-3 justify-content-center flex-wrap">
-                    <a href="#sabores" class="btn btn-danger btn-lg px-4 fw-semibold shadow-sm rounded-pill">
-                        <i class="bi bi-cup-straw me-2"></i>Ver Catálogo
+                <div class="d-flex gap-3 justify-content-center flex-wrap w-100">
+                    <a href="#pasteles" class="btn btn-danger btn-lg px-4 fw-semibold shadow-sm rounded-pill">
+                        <i class="bi bi-cake2 me-2"></i>Ver Catálogo de Pasteles
                     </a>
-                    <a href="#pedidos" class="btn btn-outline-light btn-lg px-4 fw-semibold rounded-pill">
-                        <i class="bi bi-whatsapp me-2"></i>Pedir por WhatsApp
+                    <a href="https://wa.me/593992689283" target="_blank" class="btn btn-outline-light btn-lg px-4 fw-semibold rounded-pill">
+                        <i class="bi bi-whatsapp me-2"></i>Escríbenos al WhatsApp
                     </a>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- 3. NUESTROS SABORES Y LISTA DE BENEFICIOS -->
-    <main class="container py-4" id="sabores">
+    <!-- 3. NUESTROS PASTELES Y LISTA DE BENEFICIOS -->
+    <main class="container py-4" id="pasteles">
         <div class="text-center mb-5">
-            <h2 class="h3 fw-bold text-danger display-6">Nuestros Sabores Estrella</h2>
-            <p class="text-secondary">Conoce las delicias preferidas por nuestros clientes</p>
+            <h2 class="h3 fw-bold text-danger display-6">Nuestros Modelos y Creaciones</h2>
+            <p class="text-secondary">Explora nuestra variedad de pasteles adaptados a tu celebración</p>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             
-            <!-- Producto 1 -->
+            <!-- 1. Pastel Especiales -->
             <div class="col">
-                <div class="card border-0 shadow-sm rounded-4 p-4 bg-white h-100 text-center">
-                    <img src="imagenes/imagen3.jpg" class="rounded-circle object-fit-cover border border-2 border-danger shadow-sm mx-auto mb-3" alt="Helado de Frutilla y Crema" width="100" height="100">
-                    <h3 class="h5 fw-bold text-danger mb-2">Frutilla Cremosa</h3>
-                    <p class="text-muted small mb-0">Elaborado con frutillas frescas de campo y crema de leche artesanal.</p>
+                <div class="card border-0 shadow-sm rounded-4 p-4 bg-white h-100 text-center d-flex flex-column align-items-center justify-content-between">
+                    <img src="imagenes/pastelesEspeciales.png" class="rounded-4 shadow-sm mb-3 w-100 object-fit-cover" alt="Pastel de Navidad y Especiales" style="height: 240px;">
+                    <div class="w-100 text-center">
+                        <h3 class="h5 fw-bold text-danger mb-2">Pasteles Especiales</h3>
+                        <p class="text-muted small mb-0">Diseños festivos (Navidad, fechas especiales). De 16 a 20 porciones. <br><strong class="text-danger">Precio: $23</strong>.</p>
+                    </div>
                 </div>
             </div>
 
-            <!-- Producto 2 -->
+            <!-- 2. Pastel de Eventos -->
             <div class="col">
-                <div class="card border-0 shadow-sm rounded-4 p-4 bg-white h-100 text-center">
-                    <img src="imagenes/imagen4.jpg" class="rounded-circle object-fit-cover border border-2 border-danger shadow-sm mx-auto mb-3" alt="Helado de Chocolate Gourmet" width="100" height="100">
-                    <h3 class="h5 fw-bold text-danger mb-2">Chocolate Intenso</h3>
-                    <p class="text-muted small mb-0">Cacao fino de aroma al 70% con trozos de galleta crocante.</p>
+                <div class="card border-0 shadow-sm rounded-4 p-4 bg-white h-100 text-center d-flex flex-column align-items-center justify-content-between">
+                    <img src="imagenes/pastelesEventos.png" class="rounded-4 shadow-sm mb-3 w-100 object-fit-cover" alt="Pastel de Fiesta y Eventos" style="height: 240px;">
+                    <div class="w-100 text-center">
+                        <h3 class="h5 fw-bold text-danger mb-2">Pasteles de Fiesta / Eventos</h3>
+                        <p class="text-muted small mb-0">Elegantes acabados con oro comestible y flores naturales. De 40 a 50 porciones. <br><strong class="text-danger">Precio: $21 - $90</strong>.</p>
+                    </div>
                 </div>
             </div>
 
-            <!-- Producto 3 -->
+            <!-- 3. Pastel Grandes -->
             <div class="col">
-                <div class="card border-0 shadow-sm rounded-4 p-4 bg-white h-100 text-center">
-                    <img src="imagenes/imagen5.jpg" class="rounded-circle object-fit-cover border border-2 border-danger shadow-sm mx-auto mb-3" alt="Helado de Maracuyá" width="100" height="100">
-                    <h3 class="h5 fw-bold text-danger mb-2">Maracuyá Tropical</h3>
-                    <p class="text-muted small mb-0">Una combinación refrescante entre lo dulce y la acides de la fruta real.</p>
+                <div class="card border-0 shadow-sm rounded-4 p-4 bg-white h-100 text-center d-flex flex-column align-items-center justify-content-between">
+                    <img src="imagenes/pastelesGrandes.png" class="rounded-4 shadow-sm mb-3 w-100 object-fit-cover" alt="Pastel Plin Plin Grandes" style="height: 240px;">
+                    <div class="w-100 text-center">
+                        <h3 class="h5 fw-bold text-danger mb-2">Pasteles Grandes (Temáticos)</h3>
+                        <p class="text-muted small mb-0">Imponentes pasteles de varios pisos. De 75 a 85 porciones. <br><strong class="text-danger">Precio: $21 - $90</strong>.</p>
+                    </div>
                 </div>
             </div>
 
-            <!-- Producto 4 -->
+            <!-- 4. Pastel Medianos -->
             <div class="col">
-                <div class="card border-0 shadow-sm rounded-4 p-4 bg-white h-100 text-center">
-                    <img src="imagenes/imagen6.jpg" class="rounded-circle object-fit-cover border border-2 border-danger shadow-sm mx-auto mb-3" alt="Helado de Vainilla" width="100" height="100">
-                    <h3 class="h5 fw-bold text-danger mb-2">Vainilla Glaseada</h3>
-                    <p class="text-muted small mb-0">Extracto puro de vainilla natural bañado en salsa de manjar o caramelo.</p>
+                <div class="card border-0 shadow-sm rounded-4 p-4 bg-white h-100 text-center d-flex flex-column align-items-center justify-content-between">
+                    <img src="imagenes/pastelesMedianos.png" class="rounded-4 shadow-sm mb-3 w-100 object-fit-cover" alt="Pastel Mediano Personalizado" style="height: 240px;">
+                    <div class="w-100 text-center">
+                        <h3 class="h5 fw-bold text-danger mb-2">Pasteles Medianos</h3>
+                        <p class="text-muted small mb-0">Perfectos con personaje a elección y detalles comestibles. De 10 a 12 porciones. <br><strong class="text-danger">Precio: $15 - $16</strong>.</p>
+                    </div>
                 </div>
             </div>
 
-            <!-- Producto 5 -->
+            <!-- 5. Pastel Minis -->
             <div class="col">
-                <div class="card border-0 shadow-sm rounded-4 p-4 bg-white h-100 text-center">
-                    <img src="imagenes/imagen7.jpg" class="rounded-circle object-fit-cover border border-2 border-danger shadow-sm mx-auto mb-3" alt="Helado de Menta con Chispas" width="100" height="100">
-                    <h3 class="h5 fw-bold text-danger mb-2">Menta Choco-Chip</h3>
-                    <p class="text-muted small mb-0">Sensación de frescura intensa combinada con finas chispas de chocolate.</p>
+                <div class="card border-0 shadow-sm rounded-4 p-4 bg-white h-100 text-center d-flex flex-column align-items-center justify-content-between">
+                    <img src="imagenes/pastelesMinis.png" class="rounded-4 shadow-sm mb-3 w-100 object-fit-cover" alt="Pastel Mini Corazón" style="height: 240px;">
+                    <div class="w-100 text-center">
+                        <h3 class="h5 fw-bold text-danger mb-2">Pasteles Mini (Corazón)</h3>
+                        <p class="text-muted small mb-0">Diseño romántico en forma de corazón con frases. 4 porciones. <br><strong class="text-danger">Precio: $6 - $7</strong>.</p>
+                    </div>
                 </div>
             </div>
 
-            <!-- Lista Desordenada de Beneficios / Servicios -->
+            <!-- 6. Lista de Beneficios (Estilo original alineado a la izquierda como pediste) -->
             <div class="col">
                 <div class="card border-0 shadow-sm rounded-4 bg-danger bg-opacity-10 p-4 h-100 d-flex flex-column justify-content-center">
-                    <h3 class="h6 fw-bold text-danger mb-3 text-start text-md-center">
+                    <h3 class="h6 fw-bold text-danger mb-3 text-center">
                         <i class="bi bi-star-fill me-2"></i>¿Por qué elegirnos?
                     </h3>
                     <ul class="list-unstyled vstack gap-2 small mb-0 text-start">
-                        <li><i class="bi bi-check-circle-fill text-danger me-2"></i>Frutas 100% naturales y locales.</li>
-                        <li><i class="bi bi-check-circle-fill text-danger me-2"></i>Opciones sin azúcar y deslactosadas.</li>
-                        <li><i class="bi bi-check-circle-fill text-danger me-2"></i>Atención de eventos y cumpleaños.</li>
-                        <li><i class="bi bi-check-circle-fill text-danger me-2"></i>Envíos a domicilio con empaque térmico.</li>
+                        <li><i class="bi bi-check-circle-fill text-danger me-2"></i>Todos los detalles son 100% comestibles.</li>
+                        <li><i class="bi bi-check-circle-fill text-danger me-2"></i>Diseños personalizados a tu gusto y temática.</li>
+                        <li><i class="bi bi-check-circle-fill text-danger me-2"></i>Opciones para todo tamaño de evento o reunión.</li>
+                        <li><i class="bi bi-check-circle-fill text-danger me-2"></i>Atención directa y pedidos por WhatsApp.</li>
                     </ul>
                 </div>
             </div>
@@ -139,46 +140,46 @@
         </div>
     </main>
 
-    <!-- 4. TABLA DE PRECIOS Y PRESENTACIONES -->
+    <!-- 4. TABLA DE PRECIOS Y PORCIONES -->
     <section id="precios" class="container py-4">
         <div class="card border-0 shadow-sm rounded-4 p-4 bg-white">
-            <h2 class="h3 fw-bold text-danger text-center mb-2">Menú y Menudeo</h2>
-            <p class="text-secondary text-center mb-4">Consulta nuestras opciones, combos y precios especiales</p>
+            <h2 class="h3 fw-bold text-danger text-center mb-2">Catálogo Básico y Tabla de Porciones</h2>
+            <p class="text-secondary text-center mb-4">Consulta las porciones exactas y precios según nuestros modelos</p>
             
             <div class="table-responsive">
                 <table class="table table-hover align-middle text-center border">
                     <thead class="table-danger">
                         <tr>
-                            <th scope="col">Presentación</th>
-                            <th scope="col">Descripción</th>
-                            <th scope="col">Porciones</th>
-                            <th scope="col">Precio</th>
+                            <th scope="col">Tipo de Pastel</th>
+                            <th scope="col">Porciones Sugeridas</th>
+                            <th scope="col">Características Principales</th>
+                            <th scope="col">Precio Referencial</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row" class="fw-semibold">Cono / Vasito Clásico</th>
-                            <td>1 Bola de helado a elección + 1 Topping gratis</td>
-                            <td>1 Persona</td>
-                            <td class="fw-bold text-danger">$1.50</td>
+                            <th scope="row" class="fw-semibold">Pastel Mini (Corazón)</th>
+                            <td>4 Porciones</td>
+                            <td>Forma de corazón, frases y fecha personalizable</td>
+                            <td class="fw-bold text-danger">$6.00 - $7.00</td>
                         </tr>
                         <tr>
-                            <th scope="row" class="fw-semibold">Copa Especial Gelato</th>
-                            <td>2 Bolas de helado + Baño de chocolate + Chispas</td>
-                            <td>1 - 2 Personas</td>
-                            <td class="fw-bold text-danger">$2.50</td>
+                            <th scope="row" class="fw-semibold">Pastel Mediano</th>
+                            <td>10 a 12 Porciones</td>
+                            <td>Detalles comestibles, personaje a su gusto</td>
+                            <td class="fw-bold text-danger">$15.00 - $16.00</td>
                         </tr>
                         <tr>
-                            <th scope="row" class="fw-semibold">Tarrina Familiar (1 Litro)</th>
-                            <td>Tarrina térmica con hasta 3 sabores a elección</td>
-                            <td>4 - 6 Personas</td>
-                            <td class="fw-bold text-danger">$6.00</td>
+                            <th scope="row" class="fw-semibold">Pastel Especial (Navidad/Fechas)</th>
+                            <td>16 a 20 Porciones</td>
+                            <td>Diseño temático exclusivo, 100% comestible</td>
+                            <td class="fw-bold text-danger">$23.00</td>
                         </tr>
                         <tr>
-                            <th scope="row" class="fw-semibold">Combo Cumpleañero</th>
-                            <td>2 Litros de helado + Conos crocantes + Toppings surtidos</td>
-                            <td>10 Personas</td>
-                            <td class="fw-bold text-danger">$14.00</td>
+                            <th scope="row" class="fw-semibold">Pasteles Grandes / Eventos</th>
+                            <td>40 a 85 Porciones</td>
+                            <td>Diseños de varios pisos o acabados de lujo</td>
+                            <td class="fw-bold text-danger">$21.00 - $90.00</td>
                         </tr>
                     </tbody>
                 </table>
@@ -186,40 +187,40 @@
         </div>
     </section>
 
-    <!-- 5. ELEMENTO MULTIMEDIA Y MAPA (IFRAME) -->
-    <section id="multimedia" class="container py-4">
+    <!-- 5. ELEMENTO MULTIMEDIA Y MAPA -->
+    <section id="nosotros" class="container py-4">
         <div class="row g-4">
             
-            <!-- Elemento Multimedia (Video o Audio Promocional) -->
+            <!-- Elemento Multimedia (Video real apuntando a videos/videoJorley.mp4) -->
             <div class="col-12 col-lg-6">
-                <div class="card border-0 shadow-sm rounded-4 p-4 bg-white h-100">
+                <div class="card border-0 shadow-sm rounded-4 p-4 bg-white h-100 text-center">
                     <h2 class="h4 fw-bold text-danger mb-3">
-                        <i class="bi bi-film me-2"></i>Conoce nuestra preparación
+                        <i class="bi bi-film me-2"></i>Proceso y Dedicación
                     </h2>
-                    <p class="text-muted small mb-3">Mira cómo preparamos nuestros helados diariamente con los más altos estándares de higiene y calidad.</p>
+                    <p class="text-muted small mb-3 text-center">Conoce un poco de cómo elaboramos cada pastel con amor y dedicación para sorprender a tus seres queridos.</p>
                     <div class="ratio ratio-16x9 rounded-3 overflow-hidden bg-dark">
-                        <video controls poster="imagenes/imagen1.jpg">
-                            <source src="multimedia/video_promocional.mp4" type="video/mp4">
+                        <video controls poster="imagenes/imagenBanner.png">
+                            <source src="videos/videoJorley.mp4" type="video/mp4">
                             Tu navegador no soporta el elemento de video.
                         </video>
                     </div>
                 </div>
             </div>
 
-            <!-- Iframe (Mapa de Ubicación) -->
+            <!-- Iframe (Mapa de Google Maps real) -->
             <div class="col-12 col-lg-6">
                 <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100">
                     <div class="card-header bg-danger text-white py-3 border-0 text-center">
                         <h2 class="h5 fw-bold mb-0">
-                            <i class="bi bi-geo-alt-fill me-2"></i>Visítanos en Nuestro Local
+                            <i class="bi bi-geo-alt-fill me-2"></i>Nuestra Ubicación en Google Maps
                         </h2>
                     </div>
                     <div class="ratio ratio-16x9">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.283182819875!2d-78.59123!3d-0.93829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMMKwNTYnMzcuOCJTIDc4wrAzNScyOC40Ilc!5e0!3m2!1ses!2sec!4v1710000000000!5m2!1ses!2sec" class="border-0" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                     <div class="card-footer bg-light border-0 p-3 text-center">
-                        <a href="https://maps.google.com" target="_blank" class="btn btn-outline-danger fw-semibold btn-sm px-3 rounded-pill">
-                            <i class="bi bi-box-arrow-up-right me-2"></i>Ver en Google Maps
+                        <a href="https://maps.app.goo.gl/cUa5ts5ZUi9623jy9" target="_blank" class="btn btn-outline-danger fw-semibold btn-sm px-3 rounded-pill">
+                            <i class="bi bi-box-arrow-up-right me-2"></i>Abrir ubicación oficial en Google Maps
                         </a>
                     </div>
                 </div>
@@ -234,40 +235,40 @@
             <div class="col-12 col-md-10 col-lg-8">
                 <div class="card border-0 shadow-sm rounded-4 p-4 p-md-5 bg-white">
                     <h2 class="h3 fw-bold text-danger mb-2 text-center">
-                        Realiza tu Pedido o Cotización
+                        Personaliza y Cotiza tu Pedido
                     </h2>
                     <p class="text-secondary mb-4 text-center">
-                        Déjanos tus datos e indicándonos lo que deseas y nos comunicaremos contigo de inmediato.
+                        Completa tus datos y nos pondremos en contacto contigo a través del <strong>099 268 9283</strong>.
                     </p>
                     <form action="#" method="POST">
                         <div class="mb-3">
-                            <label for="nombre" class="form-label fw-semibold">Nombre y Apellido:</label>
-                            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
+                            <label for="nombre" class="form-label fw-semibold">Nombres y Apellidos:</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ej. María López" required>
                         </div>
                         <div class="mb-3">
                             <label for="telefono" class="form-label fw-semibold">Teléfono / WhatsApp:</label>
-                            <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Ej. 0991234567" required>
+                            <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Ej. 0992689283" required>
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label fw-semibold">Correo Electrónico:</label>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="nombre@correo.com" required>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="tuemail@ejemplo.com" required>
                         </div>
                         <div class="mb-3">
-                            <label for="producto" class="form-label fw-semibold">Presentación Deseada:</label>
+                            <label for="producto" class="form-label fw-semibold">Categoría de Pastel de Interés:</label>
                             <select class="form-select" id="producto" name="producto" required>
-                                <option value="" selected disabled>-- Selecciona una opción --</option>
-                                <option value="copa">Copa Especial Gelato</option>
-                                <option value="tarrina">Tarrina Familiar (1 Litro)</option>
-                                <option value="combo">Combo Cumpleañero</option>
-                                <option value="eventos">Atención para Eventos Especiales</option>
+                                <option value="" selected disabled>-- Elige una opción --</option>
+                                <option value="mini">Pastel Mini ($6 - $7)</option>
+                                <option value="mediano">Pastel Mediano ($15 - $16)</option>
+                                <option value="especial">Pastel Especial ($23)</option>
+                                <option value="grandes">Pastel Grande / Eventos ($21 - $90)</option>
                             </select>
                         </div>
                         <div class="mb-3">
-                            <label for="detalles" class="form-label fw-semibold">Sabores o especificaciones:</label>
-                            <textarea class="form-control" id="detalles" name="detalles" rows="3" placeholder="Indica los sabores de tu preferencia, toppings o dirección de entrega..."></textarea>
+                            <label for="detalles" class="form-label fw-semibold">Especificaciones, temática o frase:</label>
+                            <textarea class="form-control" id="detalles" name="detalles" rows="4" placeholder="Cuéntanos detalles de los colores, temática o si deseas cambiar algún detalle..."></textarea>
                         </div>
                         <button type="submit" class="btn btn-danger w-100 py-2 fw-semibold shadow-sm rounded-pill">
-                            <i class="bi bi-send me-2"></i>Enviar Pedido
+                            Enviar Solicitud
                         </button>
                     </form>
                 </div>
@@ -275,52 +276,52 @@
         </div>
     </section>
 
-    <!-- 7. FOOTER / CONTACTO -->
+    <!-- 7. FOOTER / CONTACTO Y REDES SOCIALES OFICIALES -->
     <footer id="contacto" class="bg-white py-5 mt-5 border-top shadow-sm">
         <div class="container text-center">
             <div class="d-flex align-items-center justify-content-center gap-2 mb-2">
-                <img src="imagenes/imagen2.jpg" alt="Logo Gelato & Sabor" width="45" height="45" class="rounded-circle object-fit-cover border border-danger">
-                <span class="fw-bold fs-3 text-danger">GELATO & SABOR</span>
+                <img src="imagenes/jorleylogo.png" alt="Logo Jorley" height="42">
+                <span class="fw-bold fs-3 text-danger">JORLEY</span>
             </div>
-            <h3 class="h6 text-muted mb-4">Contactos & Redes Sociales</h3>
+            <h3 class="h5 fw-bold mb-4 text-center">Contactos y Redes Sociales</h3>
 
             <div class="row row-cols-1 row-cols-md-3 g-3 mb-4 col-md-10 col-lg-8 mx-auto">
                 <div class="col">
-                    <div class="p-3 bg-light rounded-3 border">
+                    <div class="p-3 bg-light rounded-3 border text-center">
                         <i class="bi bi-telephone-fill text-danger fs-4 d-block mb-1"></i>
-                        <span class="fw-semibold">099 876 5432</span>
+                        <span class="fw-semibold">099 268 9283</span>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="p-3 bg-light rounded-3 border">
+                    <div class="p-3 bg-light rounded-3 border text-center">
                         <i class="bi bi-whatsapp text-danger fs-4 d-block mb-1"></i>
-                        <span class="fw-semibold">+593 99 876 5432</span>
+                        <span class="fw-semibold">+593 99 268 9283</span>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="p-3 bg-light rounded-3 border">
-                        <i class="bi bi-envelope-fill text-danger fs-4 d-block mb-1"></i>
-                        <span class="fw-semibold">contacto@gelatosabor.com</span>
+                    <div class="p-3 bg-light rounded-3 border text-center">
+                        <i class="bi bi-facebook text-danger fs-4 d-block mb-1"></i>
+                        <span class="fw-semibold">Jorley Pastelería</span>
                     </div>
                 </div>
             </div>
 
-            <!-- Redes e Hipervínculos Externos -->
-            <div class="d-flex justify-content-center gap-4 fs-3 mb-4">
-                <a href="https://whatsapp.com" target="_blank" class="text-danger"><i class="bi bi-whatsapp"></i></a>
-                <a href="mailto:contacto@gelatosabor.com" class="text-danger"><i class="bi bi-envelope-fill"></i></a>
-                <a href="https://facebook.com" target="_blank" class="text-danger"><i class="bi bi-facebook"></i></a>
-                <a href="https://instagram.com" target="_blank" class="text-danger"><i class="bi bi-instagram"></i></a>
+            <!-- Enlaces oficiales proporcionados -->
+            <div class="d-flex justify-content-center gap-4 fs-3 mb-4 flex-wrap">
+                <a href="https://wa.me/593992689283" target="_blank" class="text-danger" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.instagram.com/jorley.pasteleria?utm_source=qr&igsh=cnZkMWZ4dDJrNGVm" target="_blank" class="text-danger" title="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.facebook.com/postresespecialessalcedo?mibextid=ZbWKwL&utm_source=ig&utm_medium=social&utm_content=link_in_bio" target="_blank" class="text-danger" title="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://maps.app.goo.gl/cUa5ts5ZUi9623jy9" target="_blank" class="text-danger" title="Ubicación Google Maps"><i class="bi bi-geo-alt-fill"></i></a>
                 <a href="#inicio" class="text-danger" title="Volver arriba"><i class="bi bi-arrow-up-circle-fill"></i></a>
             </div>
 
-            <div class="text-secondary small border-top pt-3">
-                <p class="mb-0">&copy; 2026 Gelato & Sabor - Heladería Artesanal. Todos los derechos reservados.</p>
+            <div class="text-secondary small border-top pt-3 text-center">
+                <p class="mb-0">&copy; 2026 Pastelería Jorley. Personalizando tus ideas desde 2020. Todos los derechos reservados.</p>
             </div>
         </div>
     </footer>
 
-    <!-- Bootstrap 5 JS Bundle -->
+    <!-- Script de Bootstrap 5 Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
